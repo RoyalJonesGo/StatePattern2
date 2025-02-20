@@ -56,5 +56,8 @@ valid actions. This approach becomes cumbersome and error-prone as the number of
 <p>- Remove state-specific logic from the <b>VendingMachine</b> class.</p>  
 <p>- Introduce a reference to the <b>current VendingMachineState</b> object.</p>  
 <p>- Delegate actions (<code>selectItem()</code>, <code>insertCoin()</code>, <code>dispenseItem()</code>, <code>setOutOfOrder()</code>)  
-to the current state object through its corresponding methods.</p>  
+to the current state object through its corresponding methods.</p> 
 
+
+
+![Blank diagram (4)](https://github.com/user-attachments/assets/1112b684-406d-4ecf-880a-e48f9544294b)
